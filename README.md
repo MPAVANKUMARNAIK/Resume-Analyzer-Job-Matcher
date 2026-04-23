@@ -51,7 +51,7 @@ This project solves that by analyzing resumes and comparing them with job descri
 ---
 
 ### 🔹 Step 3: Match Score & Job Role Suggestions
-
+![Missing](https://github.com/MPAVANKUMARNAIK/Resume-Analyzer-Job-Matcher/blob/f91f9769f6f8e9f7bc718354cfdda499dba2e6ac/images/Screenshot%202026-04-23%20151123.png?raw=true)
 ![Results](https://github.com/MPAVANKUMARNAIK/Resume-Analyzer-Job-Matcher/blob/183c586eabe533e485c2fad989358828a6e1c0ae/images/Screenshot%202026-04-23%20151307.png?raw=true)
 
 👉 The tool generates:
