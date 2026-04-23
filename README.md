@@ -36,7 +36,7 @@ This project solves that by analyzing resumes and comparing them with job descri
 
 ### 🔹 Step 1: Upload Resume & Job Description
 
-![Upload Screen](Project_images/Screenshot%202026-04-23%20151032.png)
+![Upload Screen](https://github.com/MPAVANKUMARNAIK/Resume-Analyzer-Job-Matcher/blob/f8e3287967831d955c2eec2dff0e7ffa30644db2/images/Screenshot%202026-04-23%20151032.png?raw=true)
 
 👉 Users can paste the job description and upload their resume easily through a clean interface.
 
