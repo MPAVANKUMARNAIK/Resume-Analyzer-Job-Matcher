@@ -44,7 +44,7 @@ This project solves that by analyzing resumes and comparing them with job descri
 
 ### 🔹 Step 2: Resume Analysis & Skill Extraction
 
-![Analysis](Project_images/Screenshot%202026-04-23%20151110.png)
+![Analysis](https://github.com/MPAVANKUMARNAIK/Resume-Analyzer-Job-Matcher/blob/183c586eabe533e485c2fad989358828a6e1c0ae/images/Screenshot%202026-04-23%20151110.png?raw=true)
 
 👉 The system extracts skills like Python, Java, SQL, etc., using NLP techniques and prepares them for comparison.
 
@@ -52,7 +52,7 @@ This project solves that by analyzing resumes and comparing them with job descri
 
 ### 🔹 Step 3: Match Score & Job Role Suggestions
 
-![Results](Project_images/Screenshot%202026-04-23%20151110.png)
+![Results](https://github.com/MPAVANKUMARNAIK/Resume-Analyzer-Job-Matcher/blob/183c586eabe533e485c2fad989358828a6e1c0ae/images/Screenshot%202026-04-23%20151307.png?raw=true)
 
 👉 The tool generates:
 
