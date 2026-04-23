@@ -121,9 +121,6 @@ streamlit run app.py
 
 ---
 
-## 🤝 Contributing
-
-Contributions are welcome! Feel free to fork and improve the project.
 
 ---
 
