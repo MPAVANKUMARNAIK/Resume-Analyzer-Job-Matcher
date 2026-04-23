@@ -85,7 +85,7 @@ h1 {
 # SIDEBAR
 # -----------------------------
 with st.sidebar:
-    st.header("🚀 Resume Tips")
+    st.header(" Resume Tips")
     st.info("✔ Use action verbs")
     st.info("✔ Add measurable achievements")
     st.info("✔ Include latest tools")
@@ -98,8 +98,8 @@ init_db()
 
 st.markdown("<h1>AI Resume Analyzer & Job Matcher</h1>", unsafe_allow_html=True)
 
-job_desc = st.text_area("📌 Paste Job Description")
-uploaded_files = st.file_uploader("📂 Upload Resume(s)", type=["pdf"], accept_multiple_files=True)
+job_desc = st.text_area(" Paste Job Description")
+uploaded_files = st.file_uploader(" Upload Resume(s)", type=["pdf"], accept_multiple_files=True)
 
 st.markdown("---")
 
@@ -132,15 +132,15 @@ with left:
             })
 
         for i, r in enumerate(results):
-            st.markdown(f"## 📄 {r['name']}")
+            st.markdown(f"##  {r['name']}")
 
             col1, col2, col3 = st.columns([2,1,1])
 
             with col1:
-                st.markdown("### 🧠 Skills")
+                st.markdown("###  Skills")
                 st.markdown(" ".join([f"`{s}`" for s in r["skills"]]))
 
-                st.markdown("### 🎯 Best Job Roles for You")
+                st.markdown("###  Best Job Roles for You")
 
                 job_matches = recommend_jobs(r["skills"])
 
@@ -148,7 +148,7 @@ with left:
 
                 st.markdown(f"""
                 <div class="job-card best">
-                🎯 Best Role: {best_role} ({best_score}%)
+                 Best Role: {best_role} ({best_score}%)
                 </div>
                 """, unsafe_allow_html=True)
 
@@ -167,7 +167,7 @@ with left:
                 st.info(f"Skills: {len(r['skills'])}")
 
             if r["score"] > 75:
-                st.success("🔥 Highly Suitable")
+                st.success(" Highly Suitable")
             elif r["score"] > 50:
                 st.warning("Moderate Fit")
             else:
@@ -180,9 +180,9 @@ with left:
                 if missing:
                     st.error(", ".join(missing))
 
-                    st.markdown("### 🎯 How to Improve")
+                    st.markdown("###  How to Improve")
                     for skill in missing[:5]:
-                        st.info(f"👉 Learn {skill} + build project")
+                        st.info(f" Learn {skill} + build project")
 
                 else:
                     st.success("No missing skills 🎉")
@@ -197,18 +197,18 @@ with left:
             )
             st.plotly_chart(fig_pie, use_container_width=True)
 
-            with st.expander("📄 Resume Preview"):
+            with st.expander(" Resume Preview"):
                 st.text(r["text"][:1200])
 
             st.markdown("---")
 
-        st.markdown("## 🏆 Ranking")
+        st.markdown("##  Ranking")
         ranked = sorted(results, key=lambda x: x["score"], reverse=True)
 
         for i, r in enumerate(ranked, 1):
             st.write(f"{i}. {r['name']} - {r['score']}%")
 
-        st.markdown("## 📊 Dashboard")
+        st.markdown("##  Dashboard")
 
         names = [r["name"] for r in results]
         scores = [r["score"] for r in results]
