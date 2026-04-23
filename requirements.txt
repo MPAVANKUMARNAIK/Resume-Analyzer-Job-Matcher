@@ -1,0 +1,10 @@
+streamlit
+spacy
+pandas
+numpy
+scikit-learn
+pdfminer.six
+matplotlib
+reportlab
+google-generativeai
+python-docx

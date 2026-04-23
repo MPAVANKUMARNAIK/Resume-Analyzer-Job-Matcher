@@ -1,0 +1,22 @@
+Role: Software Development Engineer (SDE)
+
+Responsibilities:
+
+Develop, test, and maintain software applications
+Write clean, efficient, and scalable code
+Collaborate with team members to design solutions
+Debug and fix issues in existing applications
+Participate in code reviews and improve performance
+
+Requirements:
+
+Strong knowledge of programming languages (Java, Python, or C++)
+Understanding of Data Structures and Algorithms
+Basic knowledge of databases (SQL)
+Good problem-solving and communication skills
+Ability to work in a team environment
+
+Preferred Skills:
+
+Knowledge of web development (HTML, CSS, JavaScript)
+Familiarity with frameworks like React or Spring Boot
