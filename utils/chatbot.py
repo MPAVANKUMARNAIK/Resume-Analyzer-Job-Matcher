@@ -1,7 +1,7 @@
 import google.generativeai as genai
 
 # Configure API
-genai.configure(api_key="AIzaSyAbm_R3EEqf-mLHd2pWSulK1M78jAzuL9Y")
+genai.configure(api_key="API_KEY")
 
 # USE SAFE MODEL (WORKS EVERYWHERE)
 model = genai.GenerativeModel("models/text-bison-001")
