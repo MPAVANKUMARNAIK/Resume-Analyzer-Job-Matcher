@@ -71,21 +71,6 @@ This project solves that by analyzing resumes and comparing them with job descri
 
 ---
 
-## 🏗️ Project Structure
-
-```
-Resume-Analyzer/
-│
-├── app.py
-├── utils.py
-├── requirements.txt
-├── Project_images/
-│   ├── Screenshot 2026-04-23 151032.png
-│   ├── Screenshot 2026-04-23 151110.png
-└── README.md
-```
-
----
 
 ## 🚀 Installation & Setup
 
