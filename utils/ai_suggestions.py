@@ -5,7 +5,7 @@ def get_suggestions(text):
         import google.generativeai as genai
 
         
-        api_key = "AIzaSyAbm_R3EEqf-mLHd2pWSulK1M78jAzuL9Y"
+        api_key = "API_KEY"
 
         # Configure Gemini
         genai.configure(api_key=api_key)
