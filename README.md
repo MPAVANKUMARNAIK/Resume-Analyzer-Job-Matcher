@@ -23,18 +23,18 @@ This project solves that by analyzing resumes and comparing them with job descri
 
 ##  Key Features
 
-✔ Upload Resume (PDF/Text)
-✔ NLP-based Keyword Extraction (NLTK / spaCy)
-✔ Skill Matching with Job Description
-✔ Resume Score (e.g., 75% match)
-✔ Missing Skills Suggestions
-✔ Best Job Role Recommendations
+ Upload Resume (PDF/Text),
+ NLP-based Keyword Extraction (NLTK / spaCy),
+ Skill Matching with Job Description,
+ Resume Score (e.g., 75% match),
+ Missing Skills Suggestions,
+ Best Job Role Recommendations,
 
 ---
 
 ##  Project Screenshots
 
-### 🔹 Step 1: Upload Resume & Job Description
+### Step 1: Upload Resume & Job Description
 
 ![Upload Screen](https://github.com/MPAVANKUMARNAIK/Resume-Analyzer-Job-Matcher/blob/f8e3287967831d955c2eec2dff0e7ffa30644db2/images/Screenshot%202026-04-23%20151032.png?raw=true)
 
@@ -62,7 +62,7 @@ This project solves that by analyzing resumes and comparing them with job descri
 
 ---
 
-## ⚙️ Tech Stack
+##  Tech Stack
 
 * Python 
 * Streamlit 
@@ -130,6 +130,6 @@ This project is open-source under the MIT License.
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **Meghavath Pavan Kumar Naik**
